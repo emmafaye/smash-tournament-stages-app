@@ -1,0 +1,13 @@
+{
+    "name": "MZS Stages",
+    "short_name": "MZS",
+    "icons": [{
+      "src": "./images/logo-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#DE16A9"
+  }
