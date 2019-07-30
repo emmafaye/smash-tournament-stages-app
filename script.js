@@ -1,3 +1,5 @@
+'use strict';
+
 document.addEventListener('DOMContentLoaded', (event) => {
 	console.log('Load');
 	let stages = document.getElementById('stages').children;

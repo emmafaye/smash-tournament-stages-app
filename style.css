@@ -132,6 +132,12 @@ main {
 	}
 }
 
+@media all and (display-mode: standalone) {
+  body {
+    background-color: #FFFFFF;
+  }
+}
+
 /* --------------------------------------------*/
 .battlefield {
   background-image: url("./images/stages/battlefield.jpg");

@@ -1,13 +1,43 @@
 {
     "name": "MZS Stages",
     "short_name": "MZS",
-    "icons": [{
-      "src": "./images/logo-128.png",
-        "sizes": "128x128",
-        "type": "image/png"
-      }],
+    "icons": [
+        {
+            "src": "./images/logo-64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }, {
+            "src": "./images/logo-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }, {
+            "src": "./images/logo-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }, {
+            "src": "./images/logo-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }, {
+            "src": "./images/logo-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        }, {
+            "src": "./images/logo-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }, {
+            "src": "./images/logo-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }, {
+            "src": "./images/logo-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#FFFFFF",
-    "theme_color": "#DE16A9"
+    "theme_color": "#FFFFFF"
   }

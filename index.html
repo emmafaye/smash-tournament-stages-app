@@ -7,14 +7,23 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="white" />
 		<meta name="apple-mobile-web-app-title" content="MZS Stages" />
 		<meta name="description" content="Legal Stages for MZS" />
-		<meta name="theme-color" content="#DE16A9" />
+		<meta name="theme-color" content="#FFFFFF" />
 		<title>MZS Stages</title>
 		<script>document.write('<base href="' + document.location + '" />');</script>
 		<link rel="manifest" href="./manifest.json">
 		
+		<link rel="shortcut" type="image/png" href="./images/logo-16.png"/>
 		<link rel="icon" type="image/png" sizes="64x64" href="./images/logo-64.png" />
+		<!-- 
+		<link rel="icon" type="image/png" sizes="96x96" href="./images/logo-96.png" />
+		<link rel="icon" type="image/png" sizes="128x128" href="./images/logo-128.png" />
+		<link rel="icon" type="image/png" sizes="144x144" href="./images/logo-144.png" />
+		<link rel="icon" type="image/png" sizes="152x152" href="./images/logo-152.png" />
 		<link rel="icon" type="image/png" sizes="180x180" href="./images/logo-180.png" />
-		<link rel="apple-touch-icon" type="image/png" sizes="128x128" href="./images/logo-128.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="./images/logo-192.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="./images/logo-192.png" />
+		 -->
+		<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./images/logo-180.png" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
 		<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;display=swap" />
 		<link rel="stylesheet" href="./style.css" />
@@ -42,5 +51,14 @@
 			</div>
 		</main>
 		<script  src="./script.js"></script>
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('./service-worker.js').then((reg) => {
+						console.log('Service worker registered.', reg);
+					});
+				});
+			}
+		</script>
 	</body>
 </html>
