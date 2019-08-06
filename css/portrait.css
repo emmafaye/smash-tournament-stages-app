@@ -1,3 +1,8 @@
+body.config #title {
+    margin: 0;
+    justify-content: center;
+}
+
 #title {
     margin-left: 2vw;
     font-size: calc(1.2 * 6vw);

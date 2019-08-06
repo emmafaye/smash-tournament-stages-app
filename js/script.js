@@ -169,9 +169,11 @@ function setupPullToRefresh() {
 		distThreshold: 20,
 		distMax: 40,
 		distReload: 40,
+		shouldPullToRefresh: function() {
+			return !window.scrollY
+		},
 		onRefresh() {
 			window.location.reload();
-			
 		}
 	});
 	
