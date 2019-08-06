@@ -1,0 +1,19 @@
+{
+  "name": "MZS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "test": "npm run unit",
+    "lint": "eslint --ext .js,.vue src test/unit",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "pulltorefreshjs": "^0.1.18",
+    "hammer-touchemulator": "0.0.2"
+  },
+  "license": "GNU GPL"
+}

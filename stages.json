@@ -1,0 +1,117 @@
+[
+    {
+        "id": 0,
+        "label": "Battlefield",
+        "image_url": "/images/stages/battlefield.jpg"
+    },
+    {
+        "id": 1,
+        "label": "Final Destination",
+        "image_url": "/images/stages/finaldestination.jpg"
+    },
+    {
+        "id": 2,
+        "label": "Brinstar",
+        "image_url": "/images/stages/brinstar.jpg"
+    },
+    {
+        "id": 3,
+        "label": "Yoshi's Story",
+        "image_url": "/images/stages/yoshisstory.jpg"
+    },
+    {
+        "id": 4,
+        "label": "Fountain of Dreams",
+        "image_url": "/images/stages/fountainofdreams.jpg"
+    },
+    {
+        "id": 5,
+        "label": "Green Greens",
+        "image_url": "/images/stages/greengreens.jpg"
+    },
+    {
+        "id": 6,
+        "label": "Pokémon Stadium",
+        "image_url": "/images/stages/pokemonstadium.jpg"
+    },
+    {
+        "id": 7,
+        "label": "WarioWare, Inc.",
+        "image_url": "/images/stages/warioware.jpg"
+    },
+    {
+        "id": 8,
+        "label": "Frigate Orpheon",
+        "image_url": "/images/stages/frigateorpheon.jpg"
+    },
+    {
+        "id": 9,
+        "label": "Yoshi's Island",
+        "image_url": "/images/stages/yoshisisland.jpg"
+    },
+    {
+        "id": 10,
+        "label": "Lylat Cruise",
+        "image_url": "/images/stages/lylatcruise.jpg"
+    },
+    {
+        "id": 11,
+        "label": "Pokémon Stadium 2",
+        "image_url": "./images/stages/pokemonstadium2.jpg"
+    },
+    {
+        "id": 12,
+        "label": "Castle Siege",
+        "image_url": "/images/stages/castlesiege.jpg"
+    },
+    {
+        "id": 13,
+        "label": "Smashville",
+        "image_url": "/images/stages/smashville.jpg"
+    },
+    {
+        "id": 14,
+        "label": "Spearpillar",
+        "image_url": "/images/stages/spearpillar.jpg"
+    },
+    {
+        "id": 15,
+        "label": "Unova Pokémon League",
+        "image_url": "/images/stages/unovapokemonleague.jpg"
+    },
+    {
+        "id": 16,
+        "label": "Kalos Pokémon League",
+        "image_url": "/images/stages/kalos.jpg"
+    },
+    {
+        "id": 17,
+        "label": "Town and City",
+        "image_url": "/images/stages/townandcity.jpg"
+    },
+    {
+        "id": 18,
+        "label": "Wily Castle",
+        "image_url": "./images/stages/wilycastle.jpg"
+    },
+    {
+        "id": 19,
+        "label": "Midgar",
+        "image_url": "/images/stages/midgar.jpg"
+    },
+    {
+        "id": 20,
+        "label": "Dracula's Castle",
+        "image_url": "/images/stages/draculascastle.jpg"
+    },
+    {
+        "id": 21,
+        "label": "Mementos",
+        "image_url": "/images/stages/mementos.jpg"
+    },
+    {
+        "id": 22,
+        "label": "Yggdrasil's Altar",
+        "image_url": "/images/stages/yggdrasilsaltar.jpg"
+    }
+]

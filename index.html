@@ -10,46 +10,37 @@
 		<meta name="theme-color" content="#FFFFFF" />
 		<title>MZS Stages</title>
 		<script>document.write('<base href="' + document.location + '" />');</script>
-		<link rel="manifest" href="./manifest.json">
-		
-		<link rel="shortcut" type="image/png" href="./images/logo-16.png"/>
-		<link rel="icon" type="image/png" sizes="64x64" href="./images/logo-64.png" />
-		<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./images/logo-180.png" />
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
 		<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;display=swap" />
-		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="/css/styles.css" />
+
+		<link rel="manifest" href="manifest.json">
+		<link rel="shortcut" type="image/png" href="/images/logo-16.png"/>
+		<link rel="icon" type="image/png" sizes="64x64" href="/images/logo-64.png" />
+		<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/images/logo-180.png" />
 	</head>
-	<body>
-		<header class="title"><div class="logo"></div>Tournament Stages</header>
-		<main>
-			<section id="stages">
-				<div class="stage-card"><div class="stage battlefield"></div><p>Battlefield *</p></div>
-				<div class="stage-card"><div class="stage final-destination"></div><p>Final Destination **</p></div>
-				<div class="stage-card"><div class="stage kalos"></div><p>Kalos Pokemon League</p></div>
-				<div class="stage-card"><div class="stage smashville"></div><p>Smashville</p></div>
-				<div class="stage-card"><div class="stage town-and-city"></div><p>Town and City</p></div>
-				<div class="stage-card"><div class="stage unova"></div><p>Unova Pokemon League</p></div>
-				<div class="stage-card"><div class="stage mementos"></div><p>Mementos</p></div>
-				<div class="stage-card"><div class="stage pokemon-stadium"></div><p>Pokemon Stadium 2</p></div>
-				<div class="stage-card"><div class="stage wily-castle"></div><p>Wily Castle</p></div>
-				<div class="stage-card"><div class="stage yoshis-island"></div><p>Yoshi's Island</p></div>
-			</section>
-			
-			<div class="rules">
+	<body id="body" class="config">
+		<header id="header">
+			<div id="title">
+				<div id="logo"></div>Tournament Stages
+				<div id="config_button">⚙️</div>
+			</div>
+			<div id="instructions">
+				<div id="tab"><div id="ptr"></div>&#8675 Pull Down to Reset Bans &#8675</div>
+			</div>
+		</header>
+		<main id="main">
+			<section id="stages"></section>
+			<button id="save_button" type="button"><i class="icon">💾</i> Save Configuration</button>
+			<div id="rules" class="rules">
 				<h2>Higher seed or Loser may pick between picking character or stage first</h2>
 				<p>* On Counterpick, any version Battlefield may be used, so long as it was not banned by the opponent</p>
 				<p>** On Counterpick, any version of Final Destination may be used, so long as it was not banned by the opponent</p>
 			</div>
 		</main>
-		<script  src="./script.js"></script>
-		<script>
-			if ('serviceWorker' in navigator) {
-				window.addEventListener('load', () => {
-					navigator.serviceWorker.register('./service-worker.js').then((reg) => {
-						console.log('Service worker registered.', reg);
-					});
-				});
-			}
-		</script>
+		<script src="/node_modules/pulltorefreshjs/dist/index.umd.min.js"></script>
+		<script src="/node_modules/hammer-touchemulator/touch-emulator.js"></script>
+		<script src="/js/script.js"></script>
 	</body>
 </html>

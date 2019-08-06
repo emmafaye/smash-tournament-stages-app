@@ -1,0 +1,15 @@
+body.config #instructions {
+    display: none;
+}
+
+body.config #rules {
+    display: none;
+}
+
+body.config #save_button {
+    display: block;
+}
+
+body.config #config_button {
+    display: none;
+}
