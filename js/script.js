@@ -9,8 +9,7 @@ var config = JSON.parse(localStorage.getItem(storage_key));
 
 
 function init() {
-	console.log(config);
-	const stages_data = fetchJson('/stages.json');
+	const stages_data = fetchJson('stages.json');
 	stages_data.then((response) => setupStages(response));
 	setupScroll();
 	setupServiceWorker();
@@ -187,7 +186,7 @@ function setupPullToRefresh() {
 function setupServiceWorker() {
 	if ('serviceWorker' in navigator) {
 		window.addEventListener('load', () => {
-			navigator.serviceWorker.register('/js/service-worker.js').then((reg) => {
+			navigator.serviceWorker.register('js/service-worker.js').then((reg) => {
 				console.log('Service worker registered.', reg);
 			});
 		});

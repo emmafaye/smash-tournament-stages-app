@@ -1,33 +1,33 @@
 // CODELAB: Update cache names any time any of the cached files change.
-const CACHE_NAME = 'mzs-cache-v3';
+const CACHE_NAME = 'mzs-cache-v4';
 
 // CODELAB: Add list of files to cache here.
 const FILES_TO_CACHE = [
-    '/',
-    '/index.html',
-    '/js/script.js',
-    '/css/styles.css',
-    '/css/base.css',
-    '/css/config-mode.css',
-    '/css/portrait.css',
-    '/css/print.css',
-    '/stages.json',
-    '/images/logo.png',
-    '/EmojiSymbols.woff',
+    '../',
+    '../index.html',
+    '../js/script.js',
+    '../css/styles.css',
+    '../css/base.css',
+    '../css/config-mode.css',
+    '../css/portrait.css',
+    '../css/print.css',
+    '../stages.json',
+    '../images/logo.png',
+    '../EmojiSymbols.woff',
     
-    '/images/stages/finaldestination.jpg',
-    '/images/stages/yoshisisland.jpg',
-    '/images/stages/yoshisstory.jpg',
-    '/images/stages/smashville.jpg',
-    '/images/stages/townandcity.jpg',
-    '/images/stages/kalos.jpg',
-    '/images/stages/lylatcruise.jpg',
-    '/images/stages/mementos.jpg',
-    '/images/stages/midgar.jpg',
-    '/images/stages/pokemonstadium2.jpg',
-    '/images/stages/wilycastle.jpg',
-    '/images/stages/unovapokemonleague.jpg',
-    '/images/stages/fountainofdreams.jpg'
+    '../images/stages/finaldestination.jpg',
+    '../images/stages/yoshisisland.jpg',
+    '../images/stages/yoshisstory.jpg',
+    '../images/stages/smashville.jpg',
+    '../images/stages/townandcity.jpg',
+    '../images/stages/kalos.jpg',
+    '../images/stages/lylatcruise.jpg',
+    '../images/stages/mementos.jpg',
+    '../images/stages/midgar.jpg',
+    '../images/stages/pokemonstadium2.jpg',
+    '../images/stages/wilycastle.jpg',
+    '../images/stages/unovapokemonleague.jpg',
+    '../images/stages/fountainofdreams.jpg'
 ];
 
 self.addEventListener('install', (evt) => {

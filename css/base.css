@@ -6,7 +6,7 @@ http://emojisymbols.com/
 @font-face {
 	font-family: 'EmojiSymbols';
     font-weight: normal;
-    src: url('/EmojiSymbols.woff') format('woff');
+    src: url('../EmojiSymbols.woff') format('woff');
 }
 
 body, button {
@@ -43,7 +43,7 @@ header {
 	height: 8.5vw;
 	width: 8.5vw;
 	background-size: contain;
-	background-image: url("/images/logo.png");
+	background-image: url("../images/logo.png");
 }
 
 #config_button {

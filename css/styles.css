@@ -1,4 +1,4 @@
-@import url('/css/base.css');
-@import url('/css/portrait.css') all and (orientation: portrait);
-@import url('/css/print.css') print;
-@import url('/css/config-mode.css');
+@import url('base.css');
+@import url('portrait.css') all and (orientation: portrait);
+@import url('print.css') print;
+@import url('config-mode.css');
