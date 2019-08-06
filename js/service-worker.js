@@ -6,6 +6,8 @@ const FILES_TO_CACHE = [
     '../',
     '../index.html',
     '../js/script.js',
+    '../js/lib/pulltorelease.js',
+    '../js/lib/touch-emulator.js',
     '../css/styles.css',
     '../css/base.css',
     '../css/config-mode.css',
