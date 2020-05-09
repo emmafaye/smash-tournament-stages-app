@@ -1,7 +1,7 @@
-# :iphone: Tournament Stages WebApp  
+# :iphone: Smash Tournament Stages App  
 :wave: This a WebApp for banning and selecting stages in tournaments in Super Smash Bros. Ultimate.
 
-## TSW has the following features
+## STSA has the following features
 - Modify the stage list
 - Preset stages based on popular tournaments
 - Tap/click to ban stages
