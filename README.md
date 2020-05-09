@@ -1,7 +1,7 @@
-# MZS Smash Stages WebApp :iphone:
-:wave: This a WebApp for banning and selecting stages in tournaments.
+# :iphone: Tournament Stages WebApp  
+:wave: This a WebApp for banning and selecting stages in tournaments in Super Smash Bros. Ultimate.
 
-##MZS has the following features
+## TSW has the following features
 - Modify the stage list
 - Preset stages based on popular tournaments
 - Tap/click to ban stages
@@ -13,7 +13,7 @@
 - Uses JSON data for stages and can be easily modified and updated
  
 
-##TODO
+## TODO
 - [X] Fix length being treated as a stage element
 - [ ] Ban mode vs selection mode
 - [X] How-to guide information
